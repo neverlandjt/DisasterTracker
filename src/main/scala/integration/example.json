@@ -1,0 +1,44 @@
+{
+  "kind": "calendar#events",
+  "defaultReminders": [],
+  "items": [
+    {
+      "status": "confirmed",
+      "kind": "calendar#event",
+      "end": {
+        "timeZone": "Europe/Kiev",
+        "dateTime": "2021-12-11T03:00:00+02:00"
+      },
+      "created": "2021-12-10T23:41:18.000Z",
+      "iCalUID": "2q9lla83j8iebbv729se3vunvq@google.com",
+      "reminders": {
+        "useDefault": false
+      },
+      "htmlLink": "https://www.google.com/calendar/event?eid=MnE5bGxhODNqOGllYmJ2NzI5c2UzdnVudnEgOWd1dXE2YWs0b2luYXU4aG45cDVxYnA5NWtAZw",
+      "sequence": 0,
+      "updated": "2021-12-10T23:41:47.821Z",
+      "summary": "test_event",
+      "start": {
+        "timeZone": "Europe/Kiev",
+        "dateTime": "2021-12-11T02:00:00+02:00"
+      },
+      "etag": "\"3278359414811000\"",
+      "eventType": "default",
+      "organizer": {
+        "self": true,
+        "displayName": "disaster_tracker",
+        "email": "9guuq6ak4oinau8hn9p5qbp95k@group.calendar.google.com"
+      },
+      "creator": {
+        "email": "yulianna.tymchenko@gmail.com"
+      },
+      "id": "2q9lla83j8iebbv729se3vunvq"
+    }
+  ],
+  "updated": "2021-12-10T23:41:47.821Z",
+  "summary": "disaster_tracker",
+  "etag": "\"p334dfl51mjdf80g\"",
+  "nextSyncToken": "CMjX1KG02vQCEMjX1KG02vQCGAUg8PPzxQE=",
+  "timeZone": "Europe/Kiev",
+  "accessRole": "owner"
+}

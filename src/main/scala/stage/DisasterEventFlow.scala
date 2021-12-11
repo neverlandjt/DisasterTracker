@@ -1,0 +1,5 @@
+package stage
+
+object DisasterEventFlow {
+
+}
