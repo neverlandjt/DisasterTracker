@@ -36,7 +36,7 @@ object CalendarTracker {
       Source.tick(FiniteDuration(0, TimeUnit.SECONDS), FiniteDuration(1, TimeUnit.SECONDS), NotUsed)
         .map(_ => {
           val uri = Uri("https://www.googleapis.com/calendar/v3/calendars/9guuq6ak4oinau8hn9p5qbp95k@group.calendar.google.com/events")
-          Http().singleRequest(HttpRequest(uri = uri, headers = Authorization(OAuth2BearerToken("ya29.a0ARrdaM_G5K9TgOwgNZ0U5U9Cma62JRl8N4YkpOoOcUic0uUMDEjEdZxVWyO5TC1Ct-3k8c8LGUKww_WT4qOwo12kf6GV7IrYtD9q0UZEmHjZXGpEjcwA_G3ClgosYBPvv2ErWN3Zva4B3Jk1oLl-RoXVrJNY"))
+          Http().singleRequest(HttpRequest(uri = uri, headers = Authorization(OAuth2BearerToken(""))
             :: Host("www.googleapis.com") :: Accept(MediaTypes.`application/json`) :: Nil))
             .filter(_.status == StatusCodes.OK).flatMap {
             response => Unmarshal(response.entity).to[CalendarRoot].map(_.items)
